@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        service_3iva3fc,
-        template_t7hocz7,
+        process.env.SERVICE_ID,
+        process.env.TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Pandey Sushmit Kumar",
@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "sushmit@outlook.in",
           message: form.message,
         },
-        aifYhBhfiHwyukzdD
+        process.env.PUBLIC_KEY
       )
       .then(
         () => {
