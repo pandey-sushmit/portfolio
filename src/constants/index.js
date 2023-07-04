@@ -4,6 +4,7 @@ import {
   school,
   web,
   javascript,
+  cpp,
   html,
   css,
   reactjs,
@@ -15,8 +16,19 @@ import {
   mui,
   git,
   threejs,
+  python,
+  framer,
   memories,
   quiz,
+  github,
+  github_black,
+  linkedin,
+  leetcode,
+  interviewbit,
+  codechef,
+  hackerrank,
+  instagram,
+  codeforces,
 } from "../assets";
 export const navLinks = [
   {
@@ -49,6 +61,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "C++",
+    icon: cpp,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -97,6 +113,14 @@ const technologies = [
     name: "Oracle SQL",
     icon: oracleSQL,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Framer Motion",
+    icon: framer,
+  },
 ];
 
 const experiences = [
@@ -132,7 +156,7 @@ const projects = [
   {
     name: "Memories",
     description:
-      "A Full Stack MERN Application for sharing memories with others with features like Google Auth, Likes, Comments, Pagination, Search Functionality,etc.",
+      "A Full Stack MERN Application for sharing memories with others with features like Google Auth, Likes, Comments, Pagination, Search Functionality, Post Details, etc. Users can also update and delete their memories.",
     tags: [
       {
         name: "react",
@@ -148,7 +172,7 @@ const projects = [
       },
       {
         name: "express",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: memories,
@@ -171,10 +195,56 @@ const projects = [
         name: "mongodb",
         color: "pink-text-gradient",
       },
+      {
+        name: "victory",
+        color: "orange-text-gradient",
+      },
     ],
     image: quiz,
     source_code_link: "https://github.com/pandeysushmit/quiz_app",
   },
 ];
 
-export { services, technologies, experiences, projects };
+const socials=[
+  {
+    name: "Github",
+    image: github_black,
+    profile_link: "https://github.com/pandeysushmit",
+  },
+  {
+    name: "LinkedIn",
+    image: linkedin,
+    profile_link: "https://www.linkedin.com/in/pandey-sushmit",
+  },
+  {
+    name: "Leetcode",
+    image: leetcode,
+    profile_link: "https://leetcode.com/pandey_sushmit",
+  },
+  {
+    name: "InterviewBit",
+    image: interviewbit,
+    profile_link: "https://www.interviewbit.com/profile/pandey_sushmit",
+  },
+  {
+    name: "Code Chef",
+    image: codechef,
+    profile_link: "https://www.codechef.com/users/msrit_ka_hun",
+  },
+  {
+    name: "Code Forces",
+    image: codeforces,
+    profile_link: "https://codeforces.com/profile/pandey_sushmit",
+  },
+  {
+    name: "Hackerrank",
+    image: hackerrank,
+    profile_link: "https://www.hackerrank.com/pandeysushmit",
+  },
+  {
+    name: "Instagram",
+    image: instagram,
+    profile_link: "https://www.instagram.com/pandeysushmitkumar",
+  },
+]
+export { services, technologies, experiences, projects, socials };

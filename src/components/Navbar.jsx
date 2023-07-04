@@ -65,7 +65,7 @@ const Navbar = () => {
         <li className={`${
                 active === navLinks[3].title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(navLinks[3].title)}><a href="https://drive.google.com/file/d/1OLEWdJHybB2vfqjgGNCfBeDLXDSYEUoD/view?usp=sharing">Resume</a></li>
+              onClick={() => setActive(navLinks[3].title)}><a href="https://drive.google.com/file/d/1OLEWdJHybB2vfqjgGNCfBeDLXDSYEUoD/view?usp=sharing" target="_blank">Resume</a></li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>

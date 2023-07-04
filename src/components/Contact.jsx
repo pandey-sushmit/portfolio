@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "sushmit@outlook.in",
           message: form.message,
         },
-        '5608DnUmQzY3c4LwW'
+       '5608DnUmQzY3c4LwW'
       )
       .then(
         () => {
