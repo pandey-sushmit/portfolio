@@ -95,11 +95,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer II",
+    company_name: "Oracle",
+    icon: oracleLogo,
+    iconBg: "#ffffff",
+    date: "Oct 2026 - Present · Hybrid",
+    points: [
+      "Design and develop a LangChain-based agentic service that combines deterministic checks with LLM-driven reasoning for validation and similarity search. Integrate Oracle Database vector search, Kafka, and embedding models to support semantic retrieval across validation workflows.",
+      "Lead the technical design and implementation of an OpenSearch-backed search service, connecting it with multiple backend services and the UI. Drive integration across these components to deliver a consistent search experience.",
+    ],
+  },
+  {
     title: "Associate Software Developer",
     company_name: "Oracle",
     icon: oracleLogo,
     iconBg: "#ffffff",
-    date: "Aug 2024 - Present · Hybrid",
+    date: "Aug 2024 - Sep 2026 · Hybrid",
     points: [
       "Drove backend delivery across two next-generation applications for Oracle Communications, spanning APIs, validation, data processing, import/export, search, and Kafka-based microservice integrations.",
       "Tackled complex data-design and migration work, including foreign-key-based POCs, a MySQL-to-Oracle Database 26ai migration, and research into an NDB-to-InnoDB migration while preserving existing application data.",
