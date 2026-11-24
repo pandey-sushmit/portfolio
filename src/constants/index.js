@@ -197,7 +197,7 @@ const socials = [
   { name: "LinkedIn", image: linkedin, profile_link: "https://www.linkedin.com/in/pandey-sushmit" },
   { name: "Leetcode", image: leetcode, profile_link: "https://leetcode.com/pandey_sushmit" },
   { name: "InterviewBit", image: interviewbit, profile_link: "https://www.interviewbit.com/profile/pandey_sushmit" },
-  { name: "Code Chef", image: codechef, profile_link: "https://www.codechef.com/users/msrit_ka_hun" },
+  { name: "Code Chef", image: codechef, profile_link: "https://www.codechef.com/users/sushmit_pandey" },
   { name: "Code Forces", image: codeforces, profile_link: "https://codeforces.com/profile/pandey_sushmit" },
   { name: "Hackerrank", image: hackerrank, profile_link: "https://www.hackerrank.com/pandey_sushmit" },
   { name: "Instagram", image: instagram, profile_link: "https://www.instagram.com/pandeysushmitkumar" },
