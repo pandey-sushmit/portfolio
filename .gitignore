@@ -27,3 +27,6 @@ dist-ssr
 
 # vscode
 .vscode
+
+# Local Codex cache
+/.tokensave/
