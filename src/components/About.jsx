@@ -20,6 +20,7 @@ const skillGroups = [
       "Express.js",
       "REST APIs",
       "Microservices",
+      "OpenSearch",
     ],
   },
   {
@@ -31,7 +32,6 @@ const skillGroups = [
     id: "platform",
     label: "Platform & Quality",
     skills: [
-      "OpenSearch",
       "Fluentd",
       "Grafana",
       "Prometheus",
@@ -48,8 +48,14 @@ const skillGroups = [
   },
   {
     id: "ai",
-    label: "AI Engineering",
+    label: "Agentic Development",
     skills: [
+      "LangChain",
+      "Python",
+      "VectorDB",
+      "Semantic Search",
+      "Embeddings",
+      "LLM-driven reasoning",
       "Agent governance",
       "MCP integrations",
       "Reusable AI workflows",

@@ -49,7 +49,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "AI Engineering",
+    title: "Agentic Development",
     icon: web,
   },
 ];
