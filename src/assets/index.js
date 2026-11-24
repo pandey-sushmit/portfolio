@@ -2,6 +2,14 @@ import logo from "./logo.svg";
 import creator from "./problemSolving.png";
 import web from "./web.png";
 import github from "./github.png";
+import github_black from "./github-black.png";
+import linkedin from "./linkedin.png";
+import leetcode from "./leetcode.png";
+import interviewbit from "./interviewbit.png";
+import codechef from "./codechef.png";
+import codeforces from "./codeforces.png";
+import hackerrank from "./hackerrank.png";
+import instagram from "./instagram.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +37,14 @@ export {
   creator,
   web,
   github,
+  github_black,
+  linkedin,
+  leetcode,
+  interviewbit,
+  codechef,
+  codeforces,
+  hackerrank,
+  instagram,
   menu,
   close,
   bachelors,
