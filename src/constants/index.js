@@ -114,7 +114,7 @@ const experiences = [
     ],
   },
   {
-    title: "Associate Software Developer",
+    title: "Software Developer I",
     company_name: "Oracle",
     icon: oracleLogo,
     iconBg: "#ffffff",
